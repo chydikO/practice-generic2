@@ -33,7 +33,7 @@ class List<T> {
 
     public T max() {
         T max = arrays[0];
-        // FIXME: реализовать поиск наибольшего элемента используя метод compareTo интерфейса IComparable<T>
+        // FIXME: реализовать поиск наибольшего элемента используя метод compareTo интерфейса Comparable<T>
         /*for(T item: arrays) {
             if(item > max) {
                 max = item;
