@@ -22,7 +22,7 @@ class List<T> {
 
     public T min() {
         T min = arrays[0];
-        // FIXME: реализовать поиск наименьшего элемента используя метод compareTo интерфейса IComparable<T>
+        // FIXME: реализовать поиск наименьшего элемента используя метод compareTo интерфейса Comparable<T>
         /*for(T item: arrays) {
             if(item < min) {
                 min = item;
