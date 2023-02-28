@@ -2,7 +2,7 @@ package org.itstep;
 
 public class App {
     public static void main(String[] args) {
-        // FIXME: обобщенный тип должен быть классом, в котором будет реализован интерфейс IComparable<T>
+        // FIXME: обобщенный тип должен быть классом, в котором будет реализован интерфейс Comparable<T>
         List<Tea> tea = new List<>();
         tea.add(new Tea("Цейлонский черный", 150));
         tea.add(new Tea("Грузинский черный", 40));
